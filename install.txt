@@ -1,0 +1,40 @@
+I. install Symfony 4 with MacOS
+1. install Symfony
+curl -sS https://get.symfony.com/cli/installer | bash
+1.1 traditional web app
+symfony new --full my_project
+1.2 microservice, consoele app or API
+symfony new my_project
+
+2. install Composer
+-check Composer:
+ require symfony/asset
+ symfony check:requirements
+- for 1.1: 
+composer create-project symfony/website-skeleton my_project_name
+- for 1.2: 
+composer create-project symfony/skeleton my_project_name
+
+
+
+3. install Xampp/PHP
+II. Update
+1. Update:
+cd my_project
+composer install
+2. Update version
+
+ symfony new --version=3.4 my_project_name_name
+ symfony new --version=4.4.x-dev my_project_name
+ symfony new --version=dev-master my_project_name
+III. RUN
+-commando
+php bin/console server:run
+-browser
+localhost:8000
+IV. storing Project in git
+git init
+git add .
+git commit -m "Initial commit"
+V.NEXT https://symfony.com/doc/4.1/page_creation.html
+
