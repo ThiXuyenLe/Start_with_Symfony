@@ -14,3 +14,5 @@ php -r "echo ini_get('memory_limit').PHP_EOL;"
 
 //-1: unlimited(unbegrenzt) 
 
+Composer – một trình quản lý dependecy hữu dụng và đơn giản cho PHP. Nó sẽ sắp xếp hợp lý các dependicies của dự án vào một nơi duy nhất.
+
