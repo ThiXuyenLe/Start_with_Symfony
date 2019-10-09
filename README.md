@@ -4,6 +4,8 @@
 
 http_proxy...
 
+- dont need to set URL at home
+
 
 Composer – một trình quản lý dependecy hữu dụng và đơn giản cho PHP. Nó sẽ sắp xếp hợp lý các dependicies của dự án vào một nơi duy nhất.
 
@@ -11,15 +13,18 @@ Composer – một trình quản lý dependecy hữu dụng và đơn giản cho
 
 Link : https://packagist.org/packages/doctrine/orm
 
-search: doctrine/orm
+*search: doctrine/orm*
 
 -->  mỗi package có dạng: *vendor/package [phpunit/php-timer]*
 
 This is also called the namespace. The namespace has to be unique for each package on Packagist, as it is used to identify different packages. *Đây là một tin về namespace. Namespace độc nhất cho mỗi package của Packagist, như nó được dùng để xác định các package khác nhau.*
 
-**thông tin tóm tắt**
--lập trình hướng đối tượng OOP, tương tác với các thành phần cơ sở dữ liệu thông qua Model, là các đối tượng thông qua các Class
--CSDL:cơ sở dữ liệu quan hệ/MySQL: lưu dữ liệu theo bản ghi, record: bảng/table, dòng/row
+## 1.1 **thông tin tóm tắt**
+
+- lập trình hướng đối tượng OOP, tương tác với các thành phần cơ sở dữ liệu thông qua Model, là các đối tượng thông qua các Class
+
+- CSDL:cơ sở dữ liệu quan hệ/MySQL: lưu dữ liệu theo bản ghi, record: bảng/table, dòng/row
+
 --> kĩ thuật chuyển đổi nhờ ORM: từ dòng, record/Database --> Model/Class kết nối với CSDL, và tạo ra các mqh với nhau nhờ CRUD
 
 ORM tương tác với CSDL--> Doctrine ORM
