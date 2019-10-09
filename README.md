@@ -4,8 +4,13 @@
 http_proxy...
 ## 2. Error Limit
 - **check Limit**: 
-php -r "echo ini_get('memory_limit').PHP_EOL;" \s
-//xampp --> php --> php.ini \s
-; Use -1 for unlimited or define an explicit value like 2G \n
-*memory_limit = -1* \n
-//-1: unlimited(unbegrenzt) \n
+php -r "echo ini_get('memory_limit').PHP_EOL;" 
+
+//xampp --> php --> php.ini 
+
+; Use -1 for unlimited or define an explicit value like 2G 
+
+*memory_limit = -1*
+
+//-1: unlimited(unbegrenzt) 
+
