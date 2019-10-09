@@ -44,7 +44,7 @@ ORM tương tác với CSDL--> Doctrine ORM
 PS C:\composer> composer require doctrine/orm
 
 ## 2. Error Limit: 
-/*https://ourcodeworld.com/articles/read/816/how-to-solve-composer-install-update-error-virtualalloc-failed-0x00000008*/
+Link: https://ourcodeworld.com/articles/read/816/how-to-solve-composer-install-update-error-virtualalloc-failed-0x00000008
 
  composer require doctrine/orm
  
