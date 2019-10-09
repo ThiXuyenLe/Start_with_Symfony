@@ -1,12 +1,14 @@
 # Start_with_Symfony
 ## 1. Doctrine
 - set URL because of company netzwork:
+
 http_proxy...
 
 
 Composer – một trình quản lý dependecy hữu dụng và đơn giản cho PHP. Nó sẽ sắp xếp hợp lý các dependicies của dự án vào một nơi duy nhất.
 
 - package/library
+
 Link : https://packagist.org/packages/doctrine/orm
 
 search: doctrine/orm
@@ -22,13 +24,18 @@ This is also called the namespace. The namespace has to be unique for each packa
 
 ORM tương tác với CSDL--> Doctrine ORM
 - các lớp đối tượng trong PHP mà cta sử dụng để tương tác với CSDL thông qua Doctrine --> thực thể /Entity --> mô tả thông tin tương ứng với các bảng CSDL trong database. 4 cách khai báo **Entity**:
+
 -- Docblock Annotations
 -- XML
 -- YAML
 -- PHP Code
 **Entity**
+
 * ./bin/console make:entity *
+
 - entity: a normal class that i can save to the database
+
+
 PS C:\composer> composer require doctrine/orm
 
 ## 2. Error Limit: 
@@ -37,15 +44,15 @@ PS C:\composer> composer require doctrine/orm
  composer require doctrine/orm
  
 - **check Limit**: 
+
 php -r "echo ini_get('memory_limit').PHP_EOL;" 
 
 - Solution 1:
 //xampp --> php --> php.ini 
 
 
-*memory_limit = -1* ; Use -1 for unlimited(unbegrenzt) or define an explicit value like 2G 
+*memory_limit = -1* // Use -1 for unlimited(unbegrenzt) or define an explicit value like 2G 
 
-//-1: unlimited() 
 
 - Solution 2: change PHP to 64 bit !!!
 
