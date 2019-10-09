@@ -3,6 +3,8 @@
 - set URL because of company netzwork:
 http_proxy...
 ## 2. Error Limit
+ composer require doctrine/orm
+ 
 - **check Limit**: 
 php -r "echo ini_get('memory_limit').PHP_EOL;" 
 
