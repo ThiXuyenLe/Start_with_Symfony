@@ -45,6 +45,8 @@ PS C:\composer> composer require doctrine/orm
 
 
 
+** Solution **
+-change PHP to 64 bit !!!
 
 
 
