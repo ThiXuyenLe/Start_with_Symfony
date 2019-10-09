@@ -2,19 +2,7 @@
 ## 1. Doctrine
 - set URL because of company netzwork:
 http_proxy...
-## 2. Error Limit
- composer require doctrine/orm
- 
-- **check Limit**: 
-php -r "echo ini_get('memory_limit').PHP_EOL;" 
 
-//xampp --> php --> php.ini 
-
-; Use -1 for unlimited or define an explicit value like 2G 
-
-*memory_limit = -1*
-
-//-1: unlimited(unbegrenzt) 
 
 Composer – một trình quản lý dependecy hữu dụng và đơn giản cho PHP. Nó sẽ sắp xếp hợp lý các dependicies của dự án vào một nơi duy nhất.
 
@@ -33,7 +21,7 @@ This is also called the namespace. The namespace has to be unique for each packa
 --> kĩ thuật chuyển đổi nhờ ORM: từ dòng, record/Database --> Model/Class kết nối với CSDL, và tạo ra các mqh với nhau nhờ CRUD
 
 ORM tương tác với CSDL--> Doctrine ORM
-- các lớp đối tượng trong PHP mà cta sử dụng để tương tác với CSDL thông qua Doctrine --> thực thể /Entity --> mô tả thông tin tương ứng với các bảng CSDL trong database. 4 cách khai báo Entity:
+- các lớp đối tượng trong PHP mà cta sử dụng để tương tác với CSDL thông qua Doctrine --> thực thể /Entity --> mô tả thông tin tương ứng với các bảng CSDL trong database. 4 cách khai báo **Entity**:
 -- Docblock Annotations
 -- XML
 -- YAML
@@ -43,11 +31,24 @@ ORM tương tác với CSDL--> Doctrine ORM
 - entity: a normal class that i can save to the database
 PS C:\composer> composer require doctrine/orm
 
-
-
-** Solution **
--change PHP to 64 bit !!!
+## 2. Error Limit: 
 /*https://ourcodeworld.com/articles/read/816/how-to-solve-composer-install-update-error-virtualalloc-failed-0x00000008*/
+
+ composer require doctrine/orm
+ 
+- **check Limit**: 
+php -r "echo ini_get('memory_limit').PHP_EOL;" 
+
+- Solution 1:
+//xampp --> php --> php.ini 
+
+
+*memory_limit = -1* ; Use -1 for unlimited(unbegrenzt) or define an explicit value like 2G 
+
+//-1: unlimited() 
+
+- Solution 2: change PHP to 64 bit !!!
+
 
 
 
