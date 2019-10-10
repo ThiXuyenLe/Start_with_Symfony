@@ -10,6 +10,12 @@ http_proxy...
 Composer – một trình quản lý dependecy hữu dụng và đơn giản cho PHP. Nó sẽ sắp xếp hợp lý các dependicies của dự án vào một nơi duy nhất.
 Composer là công cụ quản lý các thư viện của PHP, bạn cần cài đặt trước khi sử dụng.Composer là một Dependency Management trong PHP, công cụ quản lý các thư viện mà project của bạn sử dụng, bạn chỉ cần khai báo nó, composer sẽ tự động tải code của các thư viện, tạo ra các file cần thiết vào project của bạn, và update các thư viện nếu cần. Composer về bản chất là một cách để đưa tất cả các thư viện, class, file... của 1 bên thứ 3 như CSS frameworks, jQuery plugins và những thứ khác vào project của bạn. Composer được gọi là Dependency management, nghĩa là nó giúp bạn quản lý các thư viện, nhưng không giống như Yum hoặc Apt trong linux, nó không cho các project của bạn dùng chung một đoạn code của thư viện, mà ở mỗi project, nó sẽ tải code của thư viện về và inject vào thư mục gốc trong project của bạn, và bạn hoàn toàn được auto update các thư viện và sử dụng cho project.
 
+Composer là gì?
+Composer là một công cụ quản lý các Dependency (bạn có thể hiểu là các thư viện mà chỉ dự án của bạn sử dụng - không dùng bởi nhiều dự án) trong PHP. Vậy Composer quản lý thư viện dựa trên từng Project PHP riêng biệt của bạn, nó cài đặt các thư viện này vào một thư mục có tên vendor trong dự án (mỗi dự án có một thư mục vendor). Composer tự động sinh ra file vendor/autoload.php, từ file này giúp bạn nạp các thư viện đã cài đặt (Nó áp dụng cơ chế tự động nạp theo chuẩn PSR-4 Autoloader) và cả PSR-0 (lỗi thời).
+
+Lợi ích khi sử dụng Composer
+Nói chung là các dự án PHP ngày nay là không thể thiếu Composer, vì chúng thường sử dụng rất nhiều loại thự viện. Nếu cài đặt thư viện thủ công thật sự là ác mộng (tích hợp, cập nhật cực cừ mệt mỏi). Khi có Composer dùng thư viện nào chỉ việc khai báo hay gõ tích hợp, khi cập nhật thự viện nào đó, nó cũng tự động giúp bạn cập nhật luôn các thư viện khác mà thư viện cập nhật dùng tới.
+
 Link: https://viblo.asia/p/quan-li-cac-thu-vien-php-voi-composer-7rVRqpr9v4bP
 - package/library
 
