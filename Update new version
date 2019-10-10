@@ -1,0 +1,10 @@
+- XAMPP version: 
+
+readme_en.txt
+
+-check PHP version:
+
+php -v
+
+- Update PHP version in XAMPP: 
+https://webhostingmedia.net/update-xampp-php-version-windows/
