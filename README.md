@@ -58,7 +58,7 @@ php -r "echo ini_get('memory_limit').PHP_EOL;"
 
 *memory_limit = -1* // Use -1 for unlimited(unbegrenzt) or define an explicit value like 2G 
 
-
+This solution is suggested only for you local machine setup, not suggested for production environment.???
 - Solution 2: change PHP to 64 bit !!!
 
 
