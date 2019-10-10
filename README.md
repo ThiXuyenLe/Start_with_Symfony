@@ -8,7 +8,7 @@ http_proxy...
 
 
 Composer – một trình quản lý dependecy hữu dụng và đơn giản cho PHP. Nó sẽ sắp xếp hợp lý các dependicies của dự án vào một nơi duy nhất.
-
+Composer là công cụ quản lý các thư viện của PHP, bạn cần cài đặt trước khi sử dụng.
 - package/library
 
 Link : https://packagist.org/packages/doctrine/orm
