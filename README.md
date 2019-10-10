@@ -8,7 +8,9 @@ http_proxy...
 
 
 Composer – một trình quản lý dependecy hữu dụng và đơn giản cho PHP. Nó sẽ sắp xếp hợp lý các dependicies của dự án vào một nơi duy nhất.
-Composer là công cụ quản lý các thư viện của PHP, bạn cần cài đặt trước khi sử dụng.
+Composer là công cụ quản lý các thư viện của PHP, bạn cần cài đặt trước khi sử dụng.Composer là một Dependency Management trong PHP, công cụ quản lý các thư viện mà project của bạn sử dụng, bạn chỉ cần khai báo nó, composer sẽ tự động tải code của các thư viện, tạo ra các file cần thiết vào project của bạn, và update các thư viện nếu cần. Composer về bản chất là một cách để đưa tất cả các thư viện, class, file... của 1 bên thứ 3 như CSS frameworks, jQuery plugins và những thứ khác vào project của bạn. Composer được gọi là Dependency management, nghĩa là nó giúp bạn quản lý các thư viện, nhưng không giống như Yum hoặc Apt trong linux, nó không cho các project của bạn dùng chung một đoạn code của thư viện, mà ở mỗi project, nó sẽ tải code của thư viện về và inject vào thư mục gốc trong project của bạn, và bạn hoàn toàn được auto update các thư viện và sử dụng cho project.
+
+Link: https://viblo.asia/p/quan-li-cac-thu-vien-php-voi-composer-7rVRqpr9v4bP
 - package/library
 
 Link : https://packagist.org/packages/doctrine/orm
