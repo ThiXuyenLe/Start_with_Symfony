@@ -68,6 +68,8 @@ php -r "echo ini_get('memory_limit').PHP_EOL;"
 
 This solution is suggested only for you local machine setup, not suggested for production environment.???
 - Solution 2: change PHP to 64 bit !!!
+make //new
+generate //old
 
 
 
