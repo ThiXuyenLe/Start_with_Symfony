@@ -1,0 +1,5 @@
+1. View
+2. Describe View
+- kích chuột phải --> change Window to Command Window để chạy được lệnh describe View
+describe view_name;
+--> xem thuộc tính của biến: string, float...
