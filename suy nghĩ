@@ -1,4 +1,8 @@
-PHP với Symfony để tạo nên các Entities "handlich/manuell"
+1. PHP với Symfony để tạo nên các Entities "handlich/manuell"
 --> chuyển đổi thành automate với Doctrine?
 - https://symfonycasts.com/screencast/symfony-doctrine/create-entity : đọc cái này coi sao...
 - https://symfonycasts.com/screencast/symfony-doctrine/create-entity
+2. AppBundle --> Entity
+- khởi tạo các biến tương ứng với các cột trong bảng 
+vd: 4 cột --> 4 biến
+- tạo các fkt get, set 
