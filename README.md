@@ -71,6 +71,11 @@ This solution is suggested only for you local machine setup, not suggested for p
 make //new
 generate //old
 
+## 3.
+
+Symfony Framework cho phép nhà phát triển tạo các plugin gọi là Gói /bundle/ . Mọi thứ đều là một gói trong Symfony, bao gồm cả chức năng khung lõi và mã được viết cho ứng dụng của bạn.
+
+https://symfony.com/doc/3.4/bundles.html
 
 
 
