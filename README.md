@@ -1,5 +1,5 @@
 # Symfony
-## 1. Doctrine
+### 1. Doctrine
 - set URL because of company netzwork:
 
 http_proxy...
@@ -27,7 +27,7 @@ Link : https://packagist.org/packages/doctrine/orm
 
 This is also called the namespace. The namespace has to be unique for each package on Packagist, as it is used to identify different packages. *Đây là một tin về namespace. Namespace độc nhất cho mỗi package của Packagist, như nó được dùng để xác định các package khác nhau.*
 
-## 1.1 **thông tin tóm tắt**
+#### 1.1 **thông tin tóm tắt**
 
 - lập trình hướng đối tượng OOP, tương tác với các thành phần cơ sở dữ liệu thông qua Model, là các đối tượng thông qua các Class
 
@@ -51,7 +51,7 @@ ORM tương tác với CSDL--> Doctrine ORM
 
 PS C:\composer> composer require doctrine/orm
 
-## 2. Error Limit: 
+### 2. Error Limit: 
 Link: https://ourcodeworld.com/articles/read/816/how-to-solve-composer-install-update-error-virtualalloc-failed-0x00000008
 
  composer require doctrine/orm
@@ -71,13 +71,14 @@ This solution is suggested only for you local machine setup, not suggested for p
 make //new
 generate //old
 
-## 3.
+### 3.
 
 Symfony Framework cho phép nhà phát triển tạo các plugin gọi là Gói /bundle/ . Mọi thứ đều là một gói trong Symfony, bao gồm cả chức năng khung lõi và mã được viết cho ứng dụng của bạn.
 
 https://symfony.com/doc/3.4/bundles.html
 
-##4. cấu trúc thư mục
+### 4. cấu trúc thư mục
+
 app/config - Chứa tất cả các cấu hình được xác định cho mọi môi trường
 app/Resources - Chứa tất cả các mẫu và tệp dịch cho ứng dụng
 bin - Chứa các tập tin thực thi
