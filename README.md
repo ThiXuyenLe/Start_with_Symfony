@@ -100,5 +100,10 @@ Symfony theo mô hình MVC: Model- View - Controller
 
 -Controller: lấy dữ liệu từ Model và chuyển cho View để hiển thị ở Client
 
+### 6. một số thành phần, cấu trúc:
 
+https://viblo.asia/p/tim-hieu-chung-ve-symfony-QWkwGnzDG75g
 
+-schema.yml : chứa thông tin về tất cả các bảng và cột tương ứng
+
+-
