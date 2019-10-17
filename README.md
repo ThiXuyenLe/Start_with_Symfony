@@ -90,7 +90,15 @@ var/sessions - Chứa tất cả các tệp phiên được tạo bởi ứng d�
 vendor - Chứa tất cả các phụ thuộc ứng dụng được cài đặt bởi Trình soạn thảo
 web - Chứa tất cả các tệp của bộ điều khiển phía trước và tất cả các tài sản web, chẳng hạn như bảng định kiểu, tệp JavaScript và hình ảnh.
 
+### 5. cấu trúc Project của Symfony:
 
+Symfony theo mô hình MVC: Model- View - Controller
+
+-Model: business logic/database --> lib/model
+
+-View: tương tác vs ng dùng --> thư mục templates 
+
+-Controller: lấy dữ liệu từ Model và chuyển cho View để hiển thị ở Client
 
 
 
