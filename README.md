@@ -77,6 +77,18 @@ Symfony Framework cho phép nhà phát triển tạo các plugin gọi là Gói 
 
 https://symfony.com/doc/3.4/bundles.html
 
+##4. cấu trúc thư mục
+app/config - Chứa tất cả các cấu hình được xác định cho mọi môi trường
+app/Resources - Chứa tất cả các mẫu và tệp dịch cho ứng dụng
+bin - Chứa các tập tin thực thi
+src/AppBundle - Chứa tất cả mã dành riêng cho Symfony (bộ điều khiển và tuyến đường), mã miền của bạn (ví dụ: các lớp học thuyết) và tất cả logic kinh doanh của bạn
+tests/AppBundle - Chứa tất cả các bài kiểm tra của ứng dụng
+var/cache - Chứa tất cả các tệp bộ đệm được tạo bởi ứng dụng
+var/logs - Chứa tất cả các tệp nhật ký được tạo bởi ứng dụng
+var/sessions - Chứa tất cả các tệp phiên được tạo bởi ứng dụng
+vendor - Chứa tất cả các phụ thuộc ứng dụng được cài đặt bởi Trình soạn thảo
+web - Chứa tất cả các tệp của bộ điều khiển phía trước và tất cả các tài sản web, chẳng hạn như bảng định kiểu, tệp JavaScript và hình ảnh.
+
 
 
 
