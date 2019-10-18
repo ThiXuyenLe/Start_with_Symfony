@@ -1,4 +1,11 @@
 1. View
+1.1 zwischen 2 Tabelle
+create VIEW v_mitarbeiterwaehrungseinheiten as SELECT mitarbeiter.name, mitarbeiter.vorname, mitarbeiter.email, mitarbeiter.db_user,
+waehrungseinheiten.bezeichnung, waehrungseinheiten.land
+FROM mitarbeiter, waehrungseinheiten
+WHERE mitarbeiter.land = "Schweiz"
+
+1.2 
 2. Describe View
 - kích chuột phải --> change Window to Command Window để chạy được lệnh describe View
 describe view_name;
