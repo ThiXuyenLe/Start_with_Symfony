@@ -57,3 +57,9 @@ libraries are installed on your system.
   + Tomcat 7.0.92
   + XAMPP Control Panel Version 3.2.4.
   + XAMPP mailToDisk 1.0 (write emails via PHP on local disk in
+  
+  -Eclipse:
+  Eclipse IDE for Enterprise Java Developers.
+
+Version: 2018-12 (4.10.0)
+Build id: 20181214-0600
