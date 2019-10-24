@@ -8,6 +8,7 @@ http_proxy...
 
 
 Composer – một trình quản lý dependecy hữu dụng và đơn giản cho PHP. Nó sẽ sắp xếp hợp lý các dependicies của dự án vào một nơi duy nhất.
+
 Composer là công cụ quản lý các thư viện của PHP, bạn cần cài đặt trước khi sử dụng.Composer là một Dependency Management trong PHP, công cụ quản lý các thư viện mà project của bạn sử dụng, bạn chỉ cần khai báo nó, composer sẽ tự động tải code của các thư viện, tạo ra các file cần thiết vào project của bạn, và update các thư viện nếu cần. Composer về bản chất là một cách để đưa tất cả các thư viện, class, file... của 1 bên thứ 3 như CSS frameworks, jQuery plugins và những thứ khác vào project của bạn. Composer được gọi là Dependency management, nghĩa là nó giúp bạn quản lý các thư viện, nhưng không giống như Yum hoặc Apt trong linux, nó không cho các project của bạn dùng chung một đoạn code của thư viện, mà ở mỗi project, nó sẽ tải code của thư viện về và inject vào thư mục gốc trong project của bạn, và bạn hoàn toàn được auto update các thư viện và sử dụng cho project.
 
 Composer là gì?
@@ -36,6 +37,7 @@ This is also called the namespace. The namespace has to be unique for each packa
 --> kĩ thuật chuyển đổi nhờ ORM: từ dòng, record/Database --> Model/Class kết nối với CSDL, và tạo ra các mqh với nhau nhờ CRUD
 
 ORM tương tác với CSDL--> Doctrine ORM
+
 - các lớp đối tượng trong PHP mà cta sử dụng để tương tác với CSDL thông qua Doctrine --> thực thể /Entity --> mô tả thông tin tương ứng với các bảng CSDL trong database. 4 cách khai báo **Entity**:
 
 -- Docblock Annotations
@@ -61,14 +63,18 @@ Link: https://ourcodeworld.com/articles/read/816/how-to-solve-composer-install-u
 php -r "echo ini_get('memory_limit').PHP_EOL;" 
 
 - Solution 1:
+
 //xampp --> php --> php.ini 
 
 
 *memory_limit = -1* // Use -1 for unlimited(unbegrenzt) or define an explicit value like 2G 
 
 This solution is suggested only for you local machine setup, not suggested for production environment.???
+
 - Solution 2: change PHP to 64 bit !!!
+
 make //new
+
 generate //old
 
 ### 3.
@@ -80,14 +86,23 @@ https://symfony.com/doc/3.4/bundles.html
 ### 4. cấu trúc thư mục
 
 app/config - Chứa tất cả các cấu hình được xác định cho mọi môi trường
+
 app/Resources - Chứa tất cả các mẫu và tệp dịch cho ứng dụng
+
 bin - Chứa các tập tin thực thi
+
 src/AppBundle - Chứa tất cả mã dành riêng cho Symfony (bộ điều khiển và tuyến đường), mã miền của bạn (ví dụ: các lớp học thuyết) và tất cả logic kinh doanh của bạn
+
 tests/AppBundle - Chứa tất cả các bài kiểm tra của ứng dụng
+
 var/cache - Chứa tất cả các tệp bộ đệm được tạo bởi ứng dụng
+
 var/logs - Chứa tất cả các tệp nhật ký được tạo bởi ứng dụng
+
 var/sessions - Chứa tất cả các tệp phiên được tạo bởi ứng dụng
+
 vendor - Chứa tất cả các phụ thuộc ứng dụng được cài đặt bởi Trình soạn thảo
+
 web - Chứa tất cả các tệp của bộ điều khiển phía trước và tất cả các tài sản web, chẳng hạn như bảng định kiểu, tệp JavaScript và hình ảnh.
 
 ### 5. cấu trúc Project của Symfony:
